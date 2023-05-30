@@ -1,0 +1,145 @@
+.main-Higiene{
+    margin: auto;
+    margin-top:0.5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1080px;
+}
+
+.imgH-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 25rem;
+}
+
+.imgH-container .seguridad{
+    height: 25rem;
+    filter: brightness(70%);
+    object-fit: fill;
+    z-index: 0;
+}
+
+.imgH-container h2{
+    position: absolute;
+    font-weight: bold;
+    color: #f0f0f0;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+    text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.245);
+    z-index: 10;
+}
+
+.pba{
+    position: absolute;
+    z-index: 10;
+    width: 20rem;
+    right: 0;
+    bottom: 0;
+    margin-right: 2rem;
+}
+
+.pba-b{
+    width: 20rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #232323;
+    padding-top: 3rem;
+    background-image: url("https://res.cloudinary.com/dzabbr9gy/image/upload/v1684883245/subtle-prism_6_o46msz.png");
+    background-attachment: fixed ;
+}
+
+.plan h2{
+    color: #232323;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    line-height: 3rem;
+}
+
+
+.primero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    color: #232323;
+    padding-top: 1rem;
+    border-radius: .8rem;
+    border: 1px solid red;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    background: rgba(255, 255, 255, 0.68);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 0.71);
+}
+
+.anual{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+    border-top-left-radius: .8rem ;
+    border-top-right-radius: .8rem ;
+}
+
+.pa{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.245);
+    padding: 2rem;
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(33, 101, 255, 0.25) ;
+}
+
+.subjects-container{
+    display: flex;
+    justify-content: space-around;
+    color: #232323;
+    font-weight: 500;
+    background-color: #fff;
+    margin: auto;
+    border-bottom-left-radius: .8rem ;
+    border-bottom-right-radius: .8rem ;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 1px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+}
+
+.subjects-container ul{
+    list-style-type: circle;
+    margin: 3rem;
+}
+
+.subjects-container li{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type:disc;
+}
+
+

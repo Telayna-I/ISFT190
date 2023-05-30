@@ -1,0 +1,17 @@
+.title-cdd{
+    text-align: center;
+}
+
+.subjects-containerr{
+    display: flex;
+    justify-content: normal;
+    color: #232323;
+    font-weight: 500;
+    background-color: #fff;
+    margin: auto;
+    border-bottom-left-radius: .8rem ;
+    border-bottom-right-radius: .8rem ;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 1px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+}

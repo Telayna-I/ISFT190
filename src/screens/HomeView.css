@@ -1,0 +1,127 @@
+main h1{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.245);
+    margin-top: 2rem;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.carrera{
+    display: flex;
+    flex-direction: column;
+    height: 37rem;
+    width: 30%;
+    border-radius: 10px;
+    margin: 1rem;
+    margin-top: 3rem;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    position: relative;
+}
+
+.carrera .img-container{
+    width: 100%;
+    height: 17rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    filter: opacity(100%);
+}
+
+.img-container img{
+    display: block;
+    /* height: 17rem; */
+    object-fit: scale-down;
+}
+
+.data{
+    display: flex;
+    height: auto;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.data h2{
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    padding-bottom: 0.5rem ;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.349);
+}
+
+.data a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #EEFBFF;
+    font-weight: 600;
+    background-color: royalblue;
+    transition: ease-out 0.4s;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.data a:hover{
+    filter: brightness(0.8);
+}
+
+.data p{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    background-color: #c9c9c962;
+    border-radius: 5px;
+}
+
+.data span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.blur-in{
+    animation:blur-in 0.4s linear both
+} 
+@keyframes blur-in{
+    0%{filter:blur(12px);
+        opacity:0
+    }
+    100%{
+        filter:blur(0);
+        opacity:1
+    }
+}
+
+
+@media(width <= 1150px){
+    .carrera{
+        width: 40%;
+    }
+}
+
+@media(width <= 860px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .carrera{
+        width: 70%;
+    }
+}
