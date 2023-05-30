@@ -24,7 +24,7 @@ nav h2{
 }
 
 
-@media(width <= 500px){
+@media(width < 500px){
     header{
         flex-direction: column;
     }

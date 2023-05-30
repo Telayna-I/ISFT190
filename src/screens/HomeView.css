@@ -109,13 +109,13 @@ main h1{
 }
 
 
-@media(width <= 1150px){
+@media(width < 1150px){
     .carrera{
         width: 40%;
     }
 }
 
-@media(width <= 860px){
+@media(width < 860px){
     .main{
         flex-direction: column;
         justify-content: center;
