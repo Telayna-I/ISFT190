@@ -111,17 +111,17 @@ main h1{
 
 @media(width < 1150px){
     .carrera{
-        width: 40%;
+        width: 40% !important;
     }
 }
 
 @media(width < 860px){
     .main{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
     .carrera{
-        width: 70%;
+        width: 70% !important;
     }
 }
