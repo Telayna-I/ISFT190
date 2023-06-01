@@ -24,7 +24,7 @@ nav h2{
 }
 
 
-@media(width < 550px){
+@media only screen and (max-width: 550px){
     header{
         flex-direction: column !important;
     }

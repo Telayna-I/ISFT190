@@ -143,12 +143,12 @@
 }
 
 
-@media(width < 700px){
+@media only screen and (max-width: 700px){
     .subjects-container{
         flex-direction: column !important;
     }
 }
-@media(width < 550px){
+@media only screen and (max-width: 550px){
     .plan h2{
         text-align: center !important;
     }

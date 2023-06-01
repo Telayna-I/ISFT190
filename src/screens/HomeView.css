@@ -109,13 +109,13 @@ main h1{
 }
 
 
-@media(width < 1150px){
+@media only screen and (max-width: 1150px){
     .carrera{
         width: 40% !important;
     }
 }
 
-@media(width < 860px){
+@media only screen and (max-width: 860px){
     .main{
         flex-direction: column !important;
         justify-content: center !important;
