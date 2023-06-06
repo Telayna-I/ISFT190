@@ -9,7 +9,9 @@ const NavBar = () => {
                 <img src="https://www.isft190.com.ar/img/core-img/logo.png" />
             </a>
             <nav>
-                <h2 className="name">Instituto Superior de Formación Técnica N.º 190</h2>
+                <h2 className="name">
+                    Instituto Superior de Formación Técnica N.º 190 Ext. Bahia Blanca
+                </h2>
             </nav>
         </header>
     );
