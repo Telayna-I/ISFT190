@@ -10,7 +10,7 @@ const NavBar = () => {
             </a>
             <nav>
                 <h2 className="name">
-                    Instituto Superior de Formación Técnica N.º 190 Ext. Bahia Blanca
+                    Instituto Superior de Formación Técnica N.º 190 Ext. Bahía Blanca
                 </h2>
             </nav>
         </header>
